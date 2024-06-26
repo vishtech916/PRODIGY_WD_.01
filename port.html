@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/03a34ba756.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="image.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+          <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hello, I'm <span>Vishal Gadekar</span> <br>from GECA</h1>
+      </div>
+    
+    </div>
+<!------------about------>    
+  </div> 
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="me.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'm a seasoned Full Stack Web Developer, proficient in building robust, scalable web applications from front to back. With a strong foundation in both frontend and backend technologies, I ensure seamless user experiences and efficient data management.
+
+Beyond web development, I'm deeply passionate about Artificial Intelligence and Machine Learning. Leveraging my expertise in AI, I design and implement intelligent systems that automate tasks, analyze data, and provide valuable insights.\n My proficiency extends to mastering complex Data Structures and Algorithms. I employ optimized algorithms and data structures to solve intricate problems efficiently, enhancing the performance and scalability of applications.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Desinging Web/App Interfaces</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>Data Structures And Algorithm</span><br>Desinging Algorithms</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024- current</span><br>B.Tech Computer Science & Engineering</li>
+                <li><span>2022-2023</span><br>Design coordinator at EDCell</li>
+                <li><span>2021-2022</span><br>Internship at Adeurka</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2025</span><br>Computer Science & Engineering</li>
+                <li><span>2022-2023</span><br>Internship Training at Adeurka</li>
+                <li><span>2021-2022</span><br>Internship Training at Avenchure</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!---------Services--------------------------------------->
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>As a Full Stack Web Developer, I possess a comprehensive understanding of frontend and backend technologies, allowing me to build robust and responsive web applications.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p> I'm a passionate Web Designer with a proven track record of creating stunning and user-centric digital experiences. With a keen eye for design aesthetics and a deep understanding of user behavior, I specialize in crafting visually appealing and intuitive websites that leave a lasting impression.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p>As an accomplished App Designer, I thrive on crafting captivating digital experiences that seamlessly blend form and function. With a keen eye for detail and a passion for user-centric design, I specialize in creating mobile applications that not only meet user needs but also exceed expectations.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+ </div>
+  <!---------Portfolio--------------------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="music3.jpg">
+        <div class="layer">
+          <h3>Music Player</h3>
+          <p>You can hear the recently launched music here</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="web.jpg">
+        <div class="layer">
+          <h3>online Shopping Web</h3>
+          <p>Shop anything with best price</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="app.jpg">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Relex yourself with entertaintment</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+     
+    </div>
+    <a href="#"  class="btn">See More</a>
+  </div>
+</div>
+<!----------------------contact-->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="my cv.pdf" download class="btn btn2">Download CV</a>
+
+      </div> 
+      <div class="contact-right">
+        <form >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        
+      </div>  
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Vishal.</p>
+  </div>
+</div>
+
+ <script src="script.js"></script>
+</body>
+</html>
